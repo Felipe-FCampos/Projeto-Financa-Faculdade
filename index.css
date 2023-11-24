@@ -1,0 +1,31 @@
+body {
+    background-color: #87EC75;
+}
+
+@keyframes logo {
+    0% {top: 0px;}
+    50% {top: 15px}
+    100% {top: 0px}
+}
+
+
+#loading {
+    display: flex;
+    justify-content: center;
+    margin-top: 55%;
+}
+
+#loading img {
+    position: relative;
+    animation: logo 1s infinite;
+}
+
+.page {
+    text-align: center;
+    margin-top: 35%;
+}
+
+.page img {
+    width: 118px;
+    height: 128px;
+}
