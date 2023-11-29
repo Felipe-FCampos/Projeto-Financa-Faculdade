@@ -13,6 +13,16 @@
         <div class="page" style="display: none;">
             <h1>Bem-vindo!</h1>
             <img src="./images/logo.svg" alt="">
+            <div class="enter-data">
+                <form onsubmit="validateLogin(); return false;">
+                    <h2>Digite seu e-mail:</h2>
+                        <input id="name" type="text" placeholder="E-mail">
+                    <h2>Digite sua senha:</h2>
+                        <input id="password" type="password" placeholder="Senha">
+
+                        <button type="submit">Enviar</button>
+                </form>
+            </div>
         </div>
 </body>
 <script src="./index.js"></script>

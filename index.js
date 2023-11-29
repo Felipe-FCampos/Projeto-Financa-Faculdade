@@ -15,3 +15,17 @@ function onReady(callback) {
     setVisible('.page', true);
     setVisible('#loading', false);
   });
+
+function validateLogin(){
+    let name = document.getElementById("name").value;
+    let password = document.getElementById("password").value;
+
+    let savedName = 'Felipe';
+    let savePassword = '20230103';
+
+    if(name === savedName && password === savePassword){
+      window.location.href = 'teste.html';
+    } else {
+      alert('User not found, please try again!');
+    }
+}

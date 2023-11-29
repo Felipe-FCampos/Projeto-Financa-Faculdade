@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Roboto:wght@300;400;700&family=Sansita:wght@700&display=swap');
+
 body {
     background-color: #87EC75;
+}
+
+.page h1 {
+    font-family: 'Sansita', sans-serif;
+    margin: 1rem;
+    font-size: 48px;
+    color: #fff;
 }
 
 @keyframes logo {
@@ -28,4 +37,27 @@ body {
 .page img {
     width: 118px;
     height: 128px;
+}
+
+.enter-data {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 16px;
+    height: 3rem;
+    width: 17.5rem;
+    text-align: left;
+    border: none;
+    border-radius: 20px;
+}
+
+.enter-data h2 {
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
 }
