@@ -21,7 +21,7 @@ function validateLogin(){
     let password = document.getElementById("password").value;
 
     let savedName = 'Felipe';
-    let savePassword = '20230103';
+    let savePassword = '0106';
 
     if(name === savedName && password === savePassword){
       window.location.href = 'teste.html';
