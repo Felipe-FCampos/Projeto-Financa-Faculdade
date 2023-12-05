@@ -16,6 +16,8 @@ function onReady(callback) {
     setVisible('#loading', false);
   });
 
+  
+
 function validateLogin(){
     let name = document.getElementById("name").value;
     let password = document.getElementById("password").value;
@@ -29,3 +31,4 @@ function validateLogin(){
       alert('User not found, please try again!');
     }
 }
+
