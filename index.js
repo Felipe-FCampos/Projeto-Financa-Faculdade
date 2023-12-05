@@ -24,7 +24,7 @@ function validateLogin(){
     let savePassword = '0106';
 
     if(name === savedName && password === savePassword){
-      window.location.href = 'teste.html';
+      window.location.href = 'home.html';
     } else {
       alert('User not found, please try again!');
     }
