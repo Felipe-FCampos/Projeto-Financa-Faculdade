@@ -76,6 +76,10 @@ input {
     color: #fff;
 }
 
+#submit a {
+    color: #fff;
+}
+
 #signup {
     border: none;
     width: 40%;
@@ -84,6 +88,7 @@ input {
     margin: 16px;
     border-radius: 8px;
     background-color: #fff;
+    color: #499A3B;
 }
 
 .buttons {
