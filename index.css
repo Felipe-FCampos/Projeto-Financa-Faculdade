@@ -69,8 +69,19 @@ input {
     border: none;
     width: 40%;
     height: 15%;
+    padding: 12px;
     margin: 16px;
     border-radius: 8px;
     background-color: #499A3B;
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+
+.buttons a {
+    text-decoration: none;
     color: #fff;
 }

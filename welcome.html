@@ -9,24 +9,20 @@
     <title>SavingPig</title>
 </head>
 <body>
-    <div id="loading"><img src="./images/logo.svg" alt=""></div>
-        <div class="page" style="display: none;">
+        <div class="page">
             <img src="./images/logo.svg" alt="">
-            <h1>Bem-vindo!</h1>
+            <h1>Cadastra-se!</h1>
             <div class="enter-data">
                 <form onsubmit="validateLogin(); return false;">
-                    <h2>Digite seu usuário:</h2>
+                    <h2>Digite um usuário:</h2>
                         <input id="name" type="text" placeholder="Usuário">
-                    <h2>Digite sua senha:</h2>
+                    <h2>Digite uma senha:</h2>
                         <input id="password" type="password" placeholder="Senha">
 
-                        <div class="buttons">
-                            <button id="submit" type="submit">Enviar</button>
-                            <button id="submit"><a href="./welcome.html">Cadastrar-se</a></button>
-                        </div>
+                        <button id="submit" type="submit">Cadastrar-se</button>
                 </form>
-            </div>
         </div>
+    </div>
 </body>
-<script src="./index.js"></script>
+<script src="./welcome.js"></script>
 </html>
