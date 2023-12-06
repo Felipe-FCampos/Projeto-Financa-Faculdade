@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
   updateCryptoPrice('Bitcoin', 'Bitcoin');
   updateCryptoPrice('Ethereum', 'Ethereum');
   updateCryptoPrice('matic-network', 'MATIC');
+  updateCryptoPrice('solana', 'solana');
   updateCryptoPrice('tether', 'tether');
   updateCryptoPrice('binancecoin', 'binancecoin');
 });

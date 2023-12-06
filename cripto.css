@@ -59,7 +59,6 @@ body {
 
 .cripto span {
     display: flex;
-    margin-right: 64px;
 }
 
 .cripto #info {
@@ -74,8 +73,8 @@ body {
     background-color: #D9D9D9;
     border: none;
     border-radius: 50%;
-    margin-right: 8px;
     margin-block: 4px;
+    padding-left: 0px;
 }
 
 .about-cripto {
@@ -92,14 +91,6 @@ body {
     color: #499A3B;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-}
-
-#cripto3 #icon {
-    margin-left: 8px;
-}
-
-#cripto2 #icon {
-    margin-left: 4px;
 }
 
 @media(min-width: 350px) and (max-width: 370px){
