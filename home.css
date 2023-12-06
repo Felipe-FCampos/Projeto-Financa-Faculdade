@@ -19,6 +19,22 @@
     color: #499A3B;
 }
 
+.saldo {
+    margin-left: 16px;
+}
+
+.saldo p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: #499A3B;
+}
+
+.saldo h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #499A3B;
+}
+
 h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -36,4 +52,17 @@ span {
 #profile {
     font-family: 'Inter', sans-serif;
     color: #fff;
+}
+
+.items .option {
+    aspect-ratio: 1/1;
+    height: 43px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+}
+
+.items p {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    color: #499A3B;
 }
