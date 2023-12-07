@@ -105,6 +105,10 @@ hr {
     z-index: 0;
 }
 
+.image img {
+    border-radius: 8px 8px 0 0;
+}
+
 .game .image span {
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgb(39, 39, 39) 0%, rgba(53,53,53,1) 30%, rgba(66,66,66,1) 70%, rgb(39, 39, 39) 100%);
