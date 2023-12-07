@@ -87,6 +87,9 @@ hr {
     margin-block: 2rem;
     margin-inline: 2rem;
     background-color:#499A3B;
+    padding: 1px;
+    border-radius: 8px;
+    border: none;
 }
 
 .game {
@@ -143,7 +146,7 @@ hr {
 }
 
 .more-about h3 {
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     margin-left: 16px;
 }
 
@@ -164,4 +167,49 @@ hr {
     width: 100%;
     height: 100%;
     border-radius: 8px;
+}
+
+footer {
+    margin-top: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #499A3B;
+    text-align: center;
+}
+
+.other-items {
+    margin-top: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #499A3B;
+}
+
+.other-items h3 {
+    margin-left: 16px;
+    margin-bottom: 4px;
+}
+
+.help {
+    display: flex;
+    align-items: center;
+    background-color: #DAFFD3;
+    margin-inline: 16px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.help p {
+    margin-left: 4px;
+    margin-right: 128px;
+}
+
+.help button {
+    background-color: #499A3B;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    padding: 8px;
 }
