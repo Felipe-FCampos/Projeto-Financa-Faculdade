@@ -1,11 +1,97 @@
+#title {
+    font-size: 24px;
+    padding-top: 8px;
+}
+
+.cripto-titles {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #499A3B;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
 .content-coins {
     background-color: #fff;
     border-radius: 12px;
+    margin-inline: 16px;
+    padding-bottom: 32px;
 }
 
 .coins-items {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
-    column-gap: 125px;
+    column-gap: 75px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #499A3B;
+    background-color: #DAFFD3;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.coins-items p {
+    color: #5E5E5E;
+    font-weight: 300;
+}
+
+.specify {
+    margin-bottom: 8px;
+}
+
+.buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 16px;
+}
+
+.buy input {
+    border: 1px solid #87EC75;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.minus button, .plus button {
+    background-color: #87EC75;
+    border: none;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.sell {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 16px;
+}
+
+.sell input {
+    border: 1px solid rgb(207, 72, 72);
+    width: 50%;
+    border-radius: 8px;
+}
+
+.sell .minus button, .sell .plus button {
+    background-color: rgb(207, 72, 72);
+    border: none;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.button-confirm {
+    display: flex;
+    justify-content: center;
+}
+
+#confirm {
+    padding: 16px;
+    background-color: #499A3B;
+    color: #DAFFD3;
+    border: none;
+    border-radius: 8px;
 }
