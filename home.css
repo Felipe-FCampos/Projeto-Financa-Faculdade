@@ -100,21 +100,26 @@ hr {
 
 .game .image {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     z-index: 0;
 }
+
+.game .image span {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgb(39, 39, 39) 0%, rgba(53,53,53,1) 30%, rgba(66,66,66,1) 70%, rgb(39, 39, 39) 100%);
+    border-radius: 0 0 8px 8px;
+    width: 80%;
+}
+
 .game h3 {
     margin-left: 36px;
 }
 
 .game h4 {
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgb(39, 39, 39) 0%, rgba(53,53,53,1) 30%, rgba(66,66,66,1) 70%, rgb(39, 39, 39) 100%);
-    border-radius: 0 0 8px 8px;
     text-align: center;
     font-size: 28px;
     font-weight: 500;
     color: rgba(255, 255, 255, 85%);
-    margin-inline: 2.3rem;
     margin-top: -.4rem;
 }
