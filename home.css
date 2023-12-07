@@ -98,8 +98,9 @@ hr {
     color: #499A3B;
 }
 
-.game .image img {
-    margin-inline: 36px;
+.game .image {
+    display: flex;
+    justify-content: center;
     z-index: 0;
 }
 .game h3 {
