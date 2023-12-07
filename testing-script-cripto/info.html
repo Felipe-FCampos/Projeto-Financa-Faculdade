@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
-    <script src="aaaa.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <title>More</title>
+    <script src="teste-script.js"></script>
 </head>
 <body>
     <!DOCTYPE html>
@@ -16,21 +17,37 @@
     <script src="teste-script.js"></script>
 </head>
 <body>
+    <div class="first-title">
+        <a href="../home.html"><img src="../images/go_back.svg" alt=""></a>
+        <h1>Sobre cripto</h1>
+    </div>
     <h1 id="cryptoName"></h1>
-    <select id="cryptoSelect" onchange="updateCrypto()">
-        <option value="BTC">BTC</option>
-        <option value="ETH">ETH</option>
-        <option value="MATIC">MATIC</option>
-    </select>
-    <p id="high"></p>
-    <p id="low"></p>
-    <p id="vol"></p>
-    <p id="last"></p>
-    <p id="buy"></p>
-    <p id="sell"></p>
-    <p id="date"></p>
+    <div class="selectingCripto">
+        <select id="cryptoSelect" onchange="updateCrypto()">
+            <option value="">---</option>
+            <option value="BTC">BTC</option>
+            <option value="ETH">ETH</option>
+            <option value="MATIC">MATIC</option>
+        </select>
+    </div>
+    <section class="info">
+        <p id="high"></p>
+        <br>
+        <p id="low"></p>
+        <br>
+        <p id="vol"></p>
+        <br>
+        <p id="last"></p>
+        <br>
+        <p id="buy"></p>
+        <br>
+        <p id="sell"></p>
+        <br>
+        <p id="date"></p>
+    </section>
     <br>
 
+    <section class="info">
     <h1>Explicações</h1>
     <br>
     <p>high: Maior preço unitário de negociação das últimas 24 horas.
@@ -53,5 +70,6 @@
          <br>
         Tipo: Decimal<br><br>
          date: Data e hora da informação em Era Unix </p>
+    </section>
 </body>
 </html>

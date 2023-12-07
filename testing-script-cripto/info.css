@@ -1,0 +1,44 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.selectingCripto {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+#cryptoName {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 16px;
+    margin-right: 12rem;
+    padding: 16px;
+    background-color: #fff;
+    color: #499A3B;
+    border-radius: 8px;
+}
+
+#cryptoSelect {
+    width: 90px;
+    text-align: center;
+    height: 30px;
+    border: 1px solid #499A3B;
+    border-radius: 8px;
+    color: #499A3B;
+}
+
+.info {
+    background-color: #fff;
+    margin-inline: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #499A3B;
+}
+
+.info h1 {
+    color: #499A3B;
+    font-size: 24px;
+    font-weight: 700;
+}
