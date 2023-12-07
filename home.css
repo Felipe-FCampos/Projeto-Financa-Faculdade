@@ -9,6 +9,7 @@
     background-color: #fff;
     margin-inline: 16px;
     border-radius: 8px;
+    padding-bottom: 2rem;
 }
 
 .account > p {
@@ -54,15 +55,65 @@ span {
     color: #fff;
 }
 
-.items .option {
-    aspect-ratio: 1/1;
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.items button {
+    border: none;
+    border-radius: 8px;
+    width: 120px;
     height: 43px;
-    border-radius: 50%;
-    background-color: #d9d9d9;
+    border-radius: 8px;
+    background-color: #499A3B;
 }
 
 .items p {
     font-family: 'Inter', sans-serif;
-    font-size: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+hr {
+    margin-block: 2rem;
+    margin-inline: 2rem;
+    background-color:#499A3B;
+}
+
+.game {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
     color: #499A3B;
+}
+
+.game .image img {
+    margin-inline: 36px;
+    z-index: 0;
+}
+.game h3 {
+    margin-left: 36px;
+}
+
+.game h4 {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgb(39, 39, 39) 0%, rgba(53,53,53,1) 30%, rgba(66,66,66,1) 70%, rgb(39, 39, 39) 100%);
+    border-radius: 0 0 8px 8px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 85%);
+    margin-inline: 2.3rem;
+    margin-top: -.4rem;
 }
