@@ -1,0 +1,11 @@
+.content-coins {
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.coins-items {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 125px;
+}
