@@ -53,19 +53,50 @@ body {
     margin: 8px;
     background-color: #DAFFD3;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
     border-radius: 12px;
 }
 
 .cripto span {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 4px;
+    margin-left: 8px;
 }
 
-.cripto #info {
-    display: flex;
-    flex-direction: column;
-    margin-block: 8px;
+#info {
+    margin-left: 8px;
 }
+
+.plus-button1 button {
+    margin-left: 96px;
+}
+
+.plus-button2 button {
+    margin-left: 116px;
+}
+
+.plus-button3 button {
+    margin-left: 68px;
+}
+
+.plus-button4 button {
+    margin-left: 96px;
+}
+
+.plus-button5 button {
+    margin-left: 96px;
+}
+
+.plus-button6 button {
+    margin-left: 132px;
+}
+
+.plus-button7 button {
+    margin-left: 92px;
+}
+/*
 
 .cripto #icon {
     height: 50px;
@@ -74,13 +105,18 @@ body {
     border: none;
     border-radius: 50%;
     margin-block: 4px;
-    padding-left: 0px;
+}*/
+
+#icon {
+    height: 50px;
+    width: 50px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
 }
 
 .about-cripto {
     border: none;
     background: none;
-    margin-right: 8px;
 }
 
 .new-coins {

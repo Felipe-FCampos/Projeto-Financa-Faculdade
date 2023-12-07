@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
       })
       .catch(error => {
         console.error(`Erro ao obter o preço do ${cryptoId}:`, error);
-        document.getElementById(elementId).innerText = `R$ ${cryptoId}`;
+        document.getElementById(elementId).innerText = `R$ Error`;
       });
   };
 
